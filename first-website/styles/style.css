@@ -1,0 +1,56 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #33b3d7;
+}
+h1 {
+  font-size: 200px;
+  text-align: center;
+}
+
+ol {
+  text-align: left; /* Đảm bảo danh sách nằm bên trái */
+  display: inline-block; /* Cho phép căn giữa cả khối */
+}
+
+p,
+li {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 50px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/* Căn giữa toàn bộ danh sách */
+body {
+  width: 4000px;
+  margin: 60px auto;
+  background-color: #ff9500e2;
+  padding: 0px 0px 20px 40px; /*top - right - bottom - left*/
+  border: 5px solid black;
+  text-align: center;
+  font-size: 40px;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #5c1ae1;
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+/*class : */
+.centered {
+  display: block;
+  margin: 0 auto;
+}
+button {
+  font-size: 100px;
+}
